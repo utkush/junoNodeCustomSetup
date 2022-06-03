@@ -1,8 +1,8 @@
 accounts:
   - name: alice
-    coins: ["20000token", "200000000stake","999999999ujuno","999999999uusdc"]
+    coins: [ "20000token", "200000000stake","999999999ujuno","999999999uusdc","99999999999ujunox" ]
   - name: bob
-    coins: ["10000token", "100000000stake","999999999ujuno","999999999uusdc"]
+    coins: [ "10000token", "100000000stake","999999999ujuno","999999999uusdc","99999999999ujunox" ]
 validator:
   name: alice
   staked: "100000000stake"
@@ -13,4 +13,4 @@ client:
     path: "docs/static/openapi.yml"
 faucet:
   name: bob
-  coins: ["10000token", "100000000stake","999999999ujuno","999999999uusdc"]
+  coins: [ "10000token", "100000000stake","999999999ujuno","999999999uusdc" ]
